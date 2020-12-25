@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+
+
+* {
+    font-family: 'JetBrains Mono', monospace;
+
+}
+
+.header {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+    max-height: 150px;
+
+}
+
+
+/* main content */
+.content {
+
+    display: flex;
+
+    /* deixa os itens do content em column */
+    flex-direction: column;
+
+    /* alinha o cartão na pagina */
+    align-items: center;
+    justify-content: center;
+}
+
+.content .card {
+
+    /* alinha o texto no card */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* propriedades do card */
+    width: 300px;
+    height: 290px;
+    flex-direction: column;
+
+    border-radius: 30px;
+    background-color: white;
+
+    
+    /* efeitos do card */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+
+}
+
+/* hoover do card */
+.content .card:hover {
+
+    width: 310px;
+    height: 300px;
+
+    transition: 0.3s;
+}
+
+
+/* titulo inside card */
+.content .card .title {
+    font-weight: 700;
+
+}
+
+/* texto card */
+.content .card #fato {
+
+    text-align: justify;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+/* div do botao */
+.content .outro-fato {
+    
+    padding-top: 30px;
+}
+
+/* botao */
+.content .outro-fato .botao-fato {
+
+    padding-top: 16px;
+    padding-bottom: 14px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    
+    text-decoration: none;
+    border: none;
+    color: whitesmoke;
+    background-color: #f85f73;
+
+    border-radius: 30px;
+
+
+}
+
+/* hover do botao */
+.content .outro-fato .botao-fato:hover { 
+    background-color: black;
+
+    padding: 12px 22px;
+
+    transition: 0.3s;
+}
+
+/* acao do botao ao clicar nele */
+.content .outro-fato .botao-fato:focus { 
+    outline: none; 
+}
+
+.footer {
+    display: flex;
+
+    padding-left: 580px;
+    padding-right: 570px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: #f85f73;
+    transition: 0.3s;
+}
