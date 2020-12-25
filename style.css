@@ -138,3 +138,10 @@
     color: #f85f73;
     transition: 0.3s;
 }
+
+@media screen and (max-width: 600px) {
+
+    body { overflow-x: hidden; 
+        overflow-y: hidden;
+    }
+}
