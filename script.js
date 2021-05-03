@@ -38,12 +38,13 @@ const lista = [ "Escócia tem 421 palabras para neve",
 
 ]
 
-function random() {
+random()
 
+
+function random() {
     const random = Math.floor(Math.random() * lista.length);
     var fato = `${lista[random]}`
     
     document.getElementById('fato').innerHTML = fato;
-    
 }
 
