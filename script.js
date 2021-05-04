@@ -1,4 +1,4 @@
-const lista = [ "Escócia tem 421 palabras para neve",
+const lista = [ "Escócia tem 421 palavras para neve",
     "os polvos pôem 56.000 ovos de cada vez",
     "tubarões sobreviveram a 4 das 5 extinções em massa do planeta",
     "tubarões são mais velhos do que as árvores",
